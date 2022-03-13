@@ -16,11 +16,15 @@ I then took the category and subcategory and split the data to separate the pare
 
 A pivot chart was then created to analyze the different outcomes of each parent cateogry. Using this pivot table a graph was created and the theater category can be seen with not only the most outcomes but also the most successful outcomes. 
 
-Narrowing the data down to Theater campaigns, the outcomes are shown based on the launch dates. The most successful campaigns occurred in May and June where the least amount of success was seen in December. December is the only month where the number of failed and the number of successful campaigns are almost equal. In all other states the number of successful campaigns and failed campaigns follow a similar pattern.
-
+Narrowing the data down to Theater campaigns, the outcomes are shown based on the launch dates. The outcomes in this graph are successful, failed, canceled, and live. In order to narrow the data to only focus on outcomes instead of campaigns that are still ongoing, I filtered out the campaigns that are still "live".
 
 ### Analysis of Outcomes Based on Launch Date
+This graph shows the outcomes of finished theater campaigns based on the launch month. The most successful campaigns occurred in May and June where the least amount of success was seen in December. December is the only month where the number of failed and the number of successful campaigns are almost equal. The most failed campaigns occurred in the month of October which also is the only month where there were no canceled campaigns. Based on this graph the ideal time to launch a crowdfunding campaign is in May and June and December and January are the most unfavorable. 
+
+
 ### Analysis of Outcomes Based on Goals
+This data shows the percentage of successful, failed, and canceled campaigns in relation to the funding goal. The most successful campaigns have a low goal of less than 5000. Also campaigns with a goal between 35000 and 44999 also show almost the same success rate. Campaigns with a goal between 45000 and 49999 had a 100% failure rate but note that only 1 campaign had a goal between this value. More failures occur with a goal between 25000 to 34999 where out of 16 campaigns 12 failed. Therefore the smaller the asking amount, the more likely the campaign was able to reach the goal successfully. 
+
 ### Challenges and Difficulties Encountered
 When finding the average donation by dividing the pledged amount by the number of backers some columns resulted in an error. This was solved by using the IFERROR() function in order to replace any errors with 0.
 ## Results
